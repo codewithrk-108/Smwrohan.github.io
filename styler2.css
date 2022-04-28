@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	/* padding: 0; */
+	overflow: auto;
 }
 
 span{
@@ -242,7 +243,7 @@ body{
 	height: 900px;
 	width: 1900px;
 	/* background-image: url(/home/rkiiith/Desktop/rohan.jpeg); */
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lh3.googleusercontent.com/s8Yv6BwRFBdoTGpILKcFSXchUAHRMlMT4-j1ShYmjeKk14Vb79O9U7glcV9VEOtt9IOi65UWIaTj_hBda2CihHsD1ls8U78NyXQ7MVZzyHJ4aQrLP89XSlWIe9dLmyLIplPrqCBnh_Zr_dtELJphzmNJwbNVo6Db9VEIVin3YJ36SEc0Qxq5SldM1yjQYFWjkk0X7HMIdkDI6rQomrfKioVdmIylvToGp47AQjCT_AXu4dA2RrWl3ek7B3Jg8vttvcST1DTDrkf6mcZwknHT0wuCZdO1RQKWwxrbRtPnKodbCb_YsQq_a-HN58ZupdIMbILMzOg1bp_0S31hCSBRz9vnu9ZUr7wgdXHfMi4hDW4UCEWKGs4S7aiaEgNve6kXiVBYmP19IzcHxPMr0X_1QNXISx2D0ZoqHxfYKToWYqlGrz4NKkfbEXDassarknZvqxBPRdeDz-67VDVsA2cvMX2NRkQ9XUGVDZUq9LZNej2N3zg5VGyXKYlDqgpKQjZlSBEngmJob6uzZKmsc2tPRpOra6oRNwVsqfriJ2FmNJXsAylNs9IRYokMaisTFd-O-fCack-Wn48shICW_rM_C0g6qKXGBXYhf5ldoOuRI6LYentgPxhacAWWcLkojjK4kp12p-Qj0hssewffQdcj00VNpS_BSSjD5ReMo1xo2hU_jqpAzUMGO56acTZcqMkmF5CB6U8drUJEY1I9TB80MzokctnE7cip1a2vtxs7ln_z5z1uoQs8uviA1fD6PvL0ebhV6ReS0dy2RDFlVlF3KzlRUoP4OdzU=w1280-h526-no?authuser=0');
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('rk4.jpeg');
 	background-size:contain;
 	margin: 0px;
 	padding: 0px; 
