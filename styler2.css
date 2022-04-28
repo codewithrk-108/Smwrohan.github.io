@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+	/* padding: 0; */
+}
+
+span{
+	display: inline-block;
+	font-weight: bold;
+	/* animation: mover 6s linear infinite; */
+}
+
+@keyframes mover {
+	0%{
+		text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	}
+	50%{
+		text-shadow: 0 0 3px orange, 0 0 10px red;
+		/* transform: translateY(20px); */
+		transform: translateX(100px);
+	}
+	100%{
+		text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+	}
+}
+
+.me{
+	height: 200px;
+	width: 500px;
+    padding: 20px;
+	
+	position: relative;top: 110%; left: 20px;
+
+	font-size: 20px;
+	font-family: sans-serif;
+	color:greenyellow;
+	/* word-wrap: break-word;  */
+	position: absolute;
+	text-align: justify;
+	
+
+	border: 5px solid red;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	/* border-color:  red;
+	border-width: 10px; */
+	/* text-align: inherit; */
+	/* transform: translate(-25%,-50%); */
+}
+
+
+h3{
+	position: relative; left:170px;
+	margin:0px;
+	padding: 20px;
+	color: yellow;
+}
+
+.profim{
+
+	height: 250px;
+	width: 250px;
+	
+	background: url('https://lh3.googleusercontent.com/-jmoEtzjQw7btJJ1wTgPt6STU4XMcpOT-xKrJ2AQqCDDxHbThBztK8vwMkF1wwYzl_AeM1p02Fm1-OVLo3DgsdY46T0-sPm2UAZWm6OPhTpVgCJpBtj_pQ0FrmgwSoD840rQ9KP0jGXjPzPMly2oVnRLAGNgzr3B6avvxP7hBRX9_dZWkOiaqC_7oGC0fJ2PenQwFS8fu7LexfBmurJ0GJx8iKlfFgwhuw99eaY_Ql-u1dyFSAvVCN62Z7DYSsXZiCTEcy3W3JFOXiWlUiqRn9aUe2Uw824srqPpZdvgM8U3eRhABhfj6-qZbR18Mv6_gu10fyl7SEL47059_u2la63vL-bvAvjQ6a5EJzbPzxuu3V31niQduUxnyzwCtbDRHT1qegZ4L2J0LGL2HKwP7zGvdZ_PmnOtCKkqjpjiUt74dKLpfZiAA9DCBWJLPnmmvmaJjdJmVufWg6xucaKm_-gb_y8fCvWJ077OvvW4scpgWmkMh-laL6oDC6kcaXFU6Po8V42XW8QEONA8XvirNWsyx7A0l86hb_fCHZXAUjuJ4aNsZ8KO3gIueVS6PWKXeLLI8vQVf19pt7o4IVidpn1R_-LSxBGzm7CMNROXvn0eNpEnK0lGxOAj6qC-mQkNu6OzgmsV1bflWInez8rTXF2INdahWPtmRizPXt6jyuQI5t2G23LWGp0JIpCOOPUhhmOeA8CVyhbsFvZn0F52D7boxdyL3opmhjnTDAiP1Fz-uk9gdMCHn5mjzZR2bVlLMDmp-7EPM4tF4qfO36jf0qnzRyiqdWgI=w744-h741-no?authuser=0');
+	background-size: cover;
+	opacity: 0.75;
+	margin-left: auto;
+	margin-right: auto;
+	/* transform: translate(-50%,-50%); */
+	margin-top: 15%;
+	/* background-repeat: repeat-y; */
+	/* position: absolute; */
+
+}
+
+.edu{
+	height: 200px;
+	width: 500px;
+    padding: 20px;
+	
+	position: relative;top: 110%; right: 20px;
+
+	font-size: 20px;
+	font-family: sans-serif;
+	color:greenyellow;
+	/* word-wrap: break-word;  */
+	position: absolute;
+	text-align: justify;
+	
+
+	border: 5px solid red;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.slogan{
+	position: relative;top: 120px;left: 44%;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: red;
+
+	/* display: inline-block; */
+	/* animation: mover2 6s linear infinite; */
+}
+
+@keyframes mover2 {
+	0%{
+		text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	}
+	50%{
+		text-shadow: 0 0 3px orange, 0 0 10px red;
+		/* transform: translateY(20px); */
+		transform: translatey(20px);
+	}
+	100%{
+		text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+	}
+}
+
+/* h3{
+	
+	/* transform: translate(-50%,-50%); */
+
+
+.achievments{
+	height: 300px;
+	width: 500px;
+    padding: 20px;
+	
+	position: relative;bottom : -100%; right: 20px;
+
+	font-size: 20px;
+	font-family: sans-serif;
+	color:greenyellow;
+	/* word-wrap: break-word;  */
+	position: absolute;
+	text-align: justify;
+	
+
+	border: 5px solid red;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+
+}
+
+.skills{
+	height: 300px;
+	width: 500px;
+    padding: 20px;
+	/* margin:0px; */
+	
+	position: relative;bottom : -100%; left: 20px;
+
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:greenyellow;
+	/* word-wrap: break-word;  */
+	position: absolute;
+	text-align: justify;
+	
+
+	border: 5px solid red;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.sk1{
+	float: left;
+}
+.sk2{
+	float: left;
+}
+
+.im2{
+	/* position:relative;top: 110%; */
+	display: inline-block;
+	height: 900px;
+	width: 1900px;
+	/* background-image: url(/home/rkiiith/Desktop/rohan.jpeg); */
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg');
+	background-size: contain;
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* div{
+	margin: 0px;
+	padding: 0px;
+}*/
+
+body{
+	padding:0px;
+	margin:0px;
+ }
+
+ .typed-out1{
+	position: relative;top: 40%;left: 25%;
+	position: absolute;
+	font-size: 50px;
+	white-space: nowrap;
+	color: yellow;
+	overflow: hidden;
+	animation: typewriter 5s steps(50) infinite alternate,
+	  blink 800ms steps(50) infinite normal;
+	border-right: 5px solid black;
+ }
+
+ @keyframes typewriter {
+	from {
+	  width: 0%;
+	}
+	to {
+	  width: 47%;
+	}
+  }
+
+
+  @keyframes blink {
+	from {
+	  border-color: black;
+	}
+	to {
+	  border-color: transparent;
+	}
+  }
+ 
+  table, th, td {
+	text-align: justify;
+	border: 2px solid white;
+	padding: 20px;
+	color: yellow;
+	height: 100%;
+	font-weight: bolder;
+	font-family:sans-serif ;
+	font-size: 20px;
+  }
+
+  .rk{
+	  text-align: center;
+	  color: yellowgreen;
+  }
+  
+  .im3{
+	display: inline-block;
+	height: 900px;
+	width: 1900px;
+	/* background-image: url(/home/rkiiith/Desktop/rohan.jpeg); */
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lh3.googleusercontent.com/s8Yv6BwRFBdoTGpILKcFSXchUAHRMlMT4-j1ShYmjeKk14Vb79O9U7glcV9VEOtt9IOi65UWIaTj_hBda2CihHsD1ls8U78NyXQ7MVZzyHJ4aQrLP89XSlWIe9dLmyLIplPrqCBnh_Zr_dtELJphzmNJwbNVo6Db9VEIVin3YJ36SEc0Qxq5SldM1yjQYFWjkk0X7HMIdkDI6rQomrfKioVdmIylvToGp47AQjCT_AXu4dA2RrWl3ek7B3Jg8vttvcST1DTDrkf6mcZwknHT0wuCZdO1RQKWwxrbRtPnKodbCb_YsQq_a-HN58ZupdIMbILMzOg1bp_0S31hCSBRz9vnu9ZUr7wgdXHfMi4hDW4UCEWKGs4S7aiaEgNve6kXiVBYmP19IzcHxPMr0X_1QNXISx2D0ZoqHxfYKToWYqlGrz4NKkfbEXDassarknZvqxBPRdeDz-67VDVsA2cvMX2NRkQ9XUGVDZUq9LZNej2N3zg5VGyXKYlDqgpKQjZlSBEngmJob6uzZKmsc2tPRpOra6oRNwVsqfriJ2FmNJXsAylNs9IRYokMaisTFd-O-fCack-Wn48shICW_rM_C0g6qKXGBXYhf5ldoOuRI6LYentgPxhacAWWcLkojjK4kp12p-Qj0hssewffQdcj00VNpS_BSSjD5ReMo1xo2hU_jqpAzUMGO56acTZcqMkmF5CB6U8drUJEY1I9TB80MzokctnE7cip1a2vtxs7ln_z5z1uoQs8uviA1fD6PvL0ebhV6ReS0dy2RDFlVlF3KzlRUoP4OdzU=w1280-h526-no?authuser=0');
+	background-size:contain;
+	margin: 0px;
+	padding: 0px; 
+  }
+
+  .mvtxt{
+	position: relative;top: 90%;left: 10%;
+	font-size: 50px;
+	white-space: nowrap;
+	color: red;
+	overflow: hidden;
+	animation: typewriter2 5s steps(50) infinite alternate,
+	  blink 800ms steps(50) infinite normal;
+	border-right: 5px solid black;
+  }
+  .internallink{
+	position: relative;
+  }
+  .internallink a#int{
+	color: green;
+	font-weight: 50px;
+	font-family: sans-serif;
+	position: relative;left: 40%;
+  }
+  a#int :hover{
+	  color:yellow;
+  }
+   a#int :visited{
+	  color:orange;
+  }
+
+  @keyframes typewriter2 {
+	from {
+	  width: 0%;
+	}
+	to {
+	  width: 75%;
+	}
+  }
+
+  div#divn{
+	height : 900px;
+	width : 1900px;
+	background-color: chocolate;
+	/* background-size: cover; */
+	background-repeat: repeat-y;
+  }
+
+  .Ashneer{
+	  position: relative;top:20%;left: 37%;
+	  height: 350px;
+	  width: 500px;
+	  background-image: url('https://indianmemetemplates.com/wp-content/uploads/Bhai-kya-kar-raha-hai-tu.jpg');
+	  background-size: contain;
+  }
+  button.but1,.but2,.but3,.but4,.but5{
+	  position: relative;top:30%;left: 36%;
+  }
+  button.but6,.but7,.but8{
+	 position: relative;top:40%;left: 13.5%;
+  }
+
+  button.but1,.but2,.but3,.but4,.but5,.but7,.but6,.but8{
+	height: 50px;
+	width: 100px;
+	color: crimson;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 25%;
+	margin-right: 3px;
+  }
+
+#test{
+	/* position: relative;top:10%; */
+	position:relative;left: 0%;top:10%;
+	text-align: center;
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: bold;
+}
