@@ -242,11 +242,13 @@ body{
 	display: inline-block;
 	height: 900px;
 	width: 1900px;
+	/* background-color: aqua; */
 	/* background-image: url(/home/rkiiith/Desktop/rohan.jpeg); */
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('rk4.jpeg');
-	background-size:contain;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://t4.ftcdn.net/jpg/03/00/85/23/360_F_300852364_qSrtNxY6pokaVR7er7knpb8AyYJSxtUd.jpg');
+	background-size:cover;
 	margin: 0px;
 	padding: 0px; 
+	overflow: hidden;
   }
 
   .mvtxt{
@@ -259,15 +261,36 @@ body{
 	  blink 800ms steps(50) infinite normal;
 	border-right: 5px solid black;
   }
-  .internallink{
-	position: relative;
+  button.internallink{
+	position: relative;top: 5px;
+	margin-left: 35%;
+	height: 50px;
+	width: 100px;
+	background-color: orange;
+	border: green;
+	border-radius: 25%;
   }
-  .internallink a#int{
-	color: green;
+
+  button.externallink{
+	position: relative;top: -45px;
+	margin-left: 60%;
+	/* margin-bottom: 10%; */
+	height: 50px;
+	width: 100px;
+	background-color: orange;
+	border: green;
+	border-radius: 25%;
+  }
+
+  .internallink :hover{
+	  background-color: orangered;
+  }
+  /* .internallink a#int{
+	color: red;
 	font-weight: 50px;
 	font-family: sans-serif;
-	position: relative;left: 40%;
-  }
+	position: relative;left: 45%; */
+  /* } */
   a#int :hover{
 	  color:yellow;
   }
@@ -292,11 +315,15 @@ body{
 	background-repeat: repeat-y;
   }
 
+  a{
+	  display: inline;
+  }
+
   .Ashneer{
 	  position: relative;top:20%;left: 37%;
 	  height: 350px;
 	  width: 500px;
-	  background-image: url('https://indianmemetemplates.com/wp-content/uploads/Bhai-kya-kar-raha-hai-tu.jpg');
+	  background-image: url('https://img.freepik.com/free-photo/javascript-programming-code-abstract-technology-background_272306-155.jpg');
 	  background-size: contain;
   }
   button.but1,.but2,.but3,.but4,.but5{
@@ -323,4 +350,67 @@ body{
 	font-size: 30px;
 	font-family: fantasy;
 	font-weight: bold;
+}
+
+/* form{
+	height: 200px;
+	width: 50px;
+} */
+.news{
+	background-color:wheat;
+	/* position: absolute; */
+	/* height: 50px;
+	width: 100px; */
+	
+	/* text-decoration-color:yellow; */
+	/* text-align: justify; */
+	color: blue;
+	/* border: red; */
+	padding: 0px;
+	margin-left: 25.5%;
+	font-size: 20px;
+	/* text-indent: 0%;
+	text-anchor: start; */
+	/* cursor: default; */
+}
+
+.newsbut{
+	/* position:relative;top: 45%; left: 13%; */
+	margin-left: 47%;
+	height: 50px;
+	width: 100px;
+	border: 3px solid darkgoldenrod;
+	background-color: darkkhaki;
+	border-radius: 25%;
+}
+
+marquee{
+	opacity: 0.5;
+	font-size: 20px;
+	background-color:white;
+	margin-left: 25%;
+	margin-top: 30px;
+	color: black;
+	font-weight: bolder;
+	padding-left: 20px;
+}
+
+.textnews{
+	font-weight: bold;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-style: normal;
+	color: brown;
+	text-align: center;
+}
+
+.typebox{
+	height: 25px;
+	width: 200px;
+	background-color: cadetblue;
+	color: crimson;
+	font: bolder;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 45%;
 }
