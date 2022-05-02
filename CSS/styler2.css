@@ -97,6 +97,7 @@ h3{
 	font-family: sans-serif;
 	font-weight: bold;
 	color: red;
+	overflow: hidden;
 
 	/* display: inline-block; */
 	/* animation: mover2 6s linear infinite; */
